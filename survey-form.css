@@ -1,0 +1,44 @@
+body{
+		background-color: #210070;
+color: white;
+}
+header{
+	color: white;
+	text-align: center;
+}
+#title{
+	text-shadow: 2px 2px 5px orange;
+}
+#description{
+		text-shadow: 2px 2px 5px blue;
+
+}
+
+
+#survey-form{
+	
+	width: 600px;
+	padding: 40px;
+	margin-left: 20%;
+	background-color: #213970;
+	opacity: 0.8;
+}
+.input-text {
+width: 100%;
+height: 40px;
+border-radius: 5px;
+}
+#submit{
+	width: 100%;
+height: 40px;
+border-radius: 5px;
+background-color: limegreen;
+}
+#submit:hover{
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 1.0)
+}
+.input-textarea{
+	min-height: 100px;
+	width: 100%;
+	resize: vertical;
+}

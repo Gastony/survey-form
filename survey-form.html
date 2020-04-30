@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Developer Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="./css/survey-form.css">
+</head>
+<body>
+<div id="container">
+	<header>
+		<h1 id="title">DEVELOPER SURVEY 2020</h1>
+		<p id="description">Help us see where Software Development is heading</p>
+	</header>
+	<div id="wrapper">
+		<form id="survey-form">
+			<label for="name" id="name-label"> Name <br><br> 
+				<input type="name" name="name" placeholder="name" id="name" required class="input-text">
+			 </label><br><br>
+
+			<label for="email" id="email-label">Email <br> <br>
+				<input type="email" name="email" placeholder="email" id="email" required class="input-text">
+			</label><br><br>
+
+			<label for="age" id="number-label">Age (Optional) <br><br>
+				<input type="number" name="age" id="number" min="18" max="45" placeholder="age" required class="input-text">
+			</label><br><br>
+			<div  id="section1">
+				<p>How did you hear about this survey?</p>
+			
+				<label>
+					<input type="radio" name="radio" value="Social Media">Social Media
+				</label><br>
+<label>
+	<input type="radio" name="radio" value="Advertising">Advertising
+ </label><br>
+
+<label>
+	<input type="radio" name="radio" checked="checked" value="Friend">Friend   
+	 </label><br><br>
+<label>
+	<p>What is your favorite IDE?</p>
+	<select class="input-text" id="dropdown">
+		<option >Netbeans</option>
+		<option>Code::Blocks</option>
+		<option selected="selected">Eclipse</option>
+		<option>Visual Studio</option>
+		<option>PyCharm</option>
+		<option>Xcode</option>
+		<option>Intelli JIDEA</option>
+	</select>
+</label>
+
+<label>
+	<p>What Programming language you are familiar with? (Check all that apply)</p>
+	<input type="checkbox" name="checkbok" checked="checked" value="C">C<br>
+	<input type="checkbox" name="checkbox" value="C++">C++<br>
+		<input type="checkbox" name="checkbox" value="Java">Java<br>
+
+	<input type="checkbox" name="checkbox" value="JavaScript">JavaScript<br>
+
+	<input type="checkbox" name="checkbox" value="Python">Python<br>
+
+	<input type="checkbox" name="checkbox" value="R">R<br>
+
+	<input type="checkbox" name="checkbox" value="C#">C#<br>
+
+	<input type="checkbox" name="checkbox" value="Visual Basic">Visual Basic<br>
+		<input type="checkbox" name="checkbox" value="PHP">PHP<br>
+
+	<input type="checkbox" name="checkbox" value="HTML5">HTML5<br>
+		<input type="checkbox" name="checkbox" value="CSS">CSS<br>
+</label>
+
+<label>
+	<p>Any Comments or Suggestions?</p>
+	<textarea   class="input-textarea" >
+
+</textarea><br><br>
+</label>
+<button id="submit">Submit</button>
+
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
